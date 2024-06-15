@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="images/png" href="images/logo512.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a36897a85f.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <h1 id="main-heading">  Portfolio  </h1>
+                <ul id="sidememu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closememu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmemu()"></i>
+            </nav>
+            <div class="header-text animated animatedFadeInUp fadeInUp">
+                <p>Friendly Coder</p>
+                <h1>Hi I'm <span>Pranav</span><br>Gujar</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Photo-jpg.jpg" style="border-radius: 50%; height: 300px; width: 300px;">
+                    <p style="text-align: center; font-weight: 600; font-size: 23px; font-family: Georgia, 'Times New Roman', Times, serif; color:  #ff004f;">Mr Pranav Gujar <sub>(an exception)</sub></p>
+                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+                    <p>I am a dedicated and enthusiastic developer. I am pursuing B.Tech from WCE,Sangli. I have
+                        always been fascinated by technology and its potential to change the world, and that's what led
+                        me to pursue a career in computer science.</p>
+                    <p><br>Apart from academics, if I'm learning or developing anything, I'll be completely focused on
+                        it, even if it takes months. I'm eager to learn about new technologies in the market. I'm a
+                        voracious reader. It could be anything from self-help books to blogs or Twitter threads.</p>
+                    <p><br>In the future, I aspire to become a software developer and contribute to the development of
+                        innovative solutions that can make a difference in people's lives.</p>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="skills()" style="border-bottom:3px solid #ff004f;">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End Developer</span><br>Building websites using HTML,CSS and JS</li>
+                            <li><span>Backend</span><br>Server side website development</li>
+                            <li><span>Java</span><br>Problem solving and object oriented programming</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links" onmouseover="experience()" style="border-bottom:3px solid #ff004f;">Experience</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2024 <strong>:</strong> Remote</span><br>Web Development Internship at <strong>CodSoft</strong></li>
+                            <li><span>May 2024 <strong>:</strong> Remote</span><br>Web Development Internship at <strong>Prodigy Infotech</strong></li>
+                            <li><span>June 2024 <strong>:</strong> Remote</span><br>Full stack Development Internship at <strong>Bharat Intern</strong></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="education()" style="border-bottom:3px solid #ff004f;">Education</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-21</span><br>10th Grade <strong>RRH Daryapur</strong></li>
+                            <li><span>2022-23</span><br>12th Grade <strong>AJC Daryapur</strong></li>
+                            <li><span>2023 onwards</span><br>Pursuing BTech at <strong>WCE Sangli</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a front-end developer, I can create and implement the user interface of a website or web
+                        application. This involves working with HTML, CSS, and JavaScript to design and develop web
+                        pages that are visually appealing, responsive, and user-friendly. </p>
+                    <a href="#services">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Backend developer</h2>
+                    <p>As a skilled backend developer, I specialize in creating robust, scalable server-side applications
+                        that power seamless user experiences. With expertise in languages such as Java, and Node.js,
+                         I excel in building RESTful APIs </p>
+                    <a href="#services">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Java</h2>
+                    <p>As a Java developer, I can do problem solving using the Java programming languages. This
+                        could involve developing pointer structure file handling and object oriented programming,
+                        depending on the specific job requirements. </p>
+                    <a href="#services">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Screenshot 2024-06-15 101859.png">
+                    <div class="layer">
+                        <h3>Landing Pge</h3>
+                        <p>
+                            Design a modern and visually appealing landing page for a tech product or service. 
+                            The page should include sections like a compelling hero image, key features, testimonials, 
+                            pricing plans.</p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Screenshot 2024-06-15 102317.png">
+                    <div class="layer">
+                        <h3>Weather app</h3>
+                        <p>A weather application that provides current weather conditions, forecasts, and severe weather alerts based on 
+                            the user's location. The app include many features.</p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Screenshot 2024-06-15 102006.png">
+                    <div class="layer">
+                        <h3>ToDo list</h3>
+                        <p> Simple and intuitive to-do list application where users can add, edit, and delete tasks.
+                            Features should include task categorization, priority levels, deadlines, and reminders. </p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#header" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>pranavgujar@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#header"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#header"><i
+                                class="fa-brands fa-instagram"></i></i></a>
+                        <a href="#header"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#header"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="#header"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="wait-msg"></span>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2024.All rights reserved by Pranav Gujar.</p>
+        </div>
+    </div>
+</body>
+
+</html>
