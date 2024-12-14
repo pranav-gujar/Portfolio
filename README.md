@@ -1,10 +1,8 @@
-# Task of Web Development Internship at Prodigy Infotech.
-
 # Personal Digital Portfolio
 
 ## Overview
 
-I am thrilled to present my personal portfolio, created as part of my web development internship at Prodigy Infotech. This portfolio showcases my skills, projects, and accomplishments in web development.
+I am thrilled to present my personal portfolio. This portfolio showcases my skills, projects, and accomplishments in web development.
 
 Working on this project has been an invaluable experience, allowing me to highlight my work and create a professional online presence.
 
@@ -34,8 +32,3 @@ Working on this project has been an invaluable experience, allowing me to highli
 1. Open the portfolio in your web browser.
 2. Navigate through the sections to learn more about my background, view my projects, and contact me.
 3. Use the contact form to send a message directly from the portfolio.
-
-
-## Acknowledgements
-
-- Thanks to Prodigy Infotech for providing the opportunity to work on this project during my web development internship.
